@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>About me</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="website.css">
+<link href="https://fonts.googleapis.com/css?family=PlayFair Display|open+sans" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-- Navbar (sit on top) -->
+<div class="w3-top" >
+  <div class="w3-bar" id="myNavbar">
+    <a class="button w3-hide-medium w3-hide-large" align="right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item button">HOME</a>
+    <a href="#about" class="w3-bar-item button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block  w3-hide w3-hide-large w3-hide-medium" style="background-color: white">
+    <a href="#about" class="w3-bar-item button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item button" onclick="toggleFunction()">CONTACT</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container " id="home">
+  <div class="w3-display-middle "  style="white-space:nowrap">
+      <span class="w3-hide-small" style="background-color: rgba(0,0,0,0.4)">
+      <span class="padl wide" text-align="center" style="color: antiquewhite">Welcome to My Website</span></span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content  pad" id="about">
+  <h3  align="center" style="font-size: 32px"><strong> ABOUT ME </strong></h3>
+    <p align="text-align: center" style="font-size: 18px">I have created a fictional "personal" website/blog, and my fictional character is friendly personality. I love to cook and listen to music and people. More of a practical and comfortable person, people like to open themselves. Like to complete the work before hand or on time. Ethusiatic to know more about different culture and religion.</p>
+  <div class="row">
+    <div class="col-lg-6  padl" align="center">
+      <img src="9.jpg"  alt="Photo of Me" width="300" height="400"/>
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="col-xs-6  padl" style="font-size: 20px">
+        <p><b><i class="fa fa-user marrgt" ></i>Varuni Agarwal</b></p>
+        <p class="marrgt" style="font-size: 18px"><b>D.O.B:</b> 5/06/98 <br/>
+       <b>Languages known:</b> Hindi, English</p>
+      
+        <h2>Objective</h2>
+  <p><i style="font-size: 18px">To work for an organization which provides me the opportunity to improve my skills and knowledge to growth along with the organization objective </i></p>
+    </div>
+  </div>
+    
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container ">
+  <div class="w3-display-middle" style="font-size: 100px">
+    <span style="color: white" >PORTFOLIO</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content section pad " id="portfolio">
+    <h2 style="font-size: 40px"><i> More About Me</i></h2>
+   <p style="font-size: 18px">1. An enthusiastic fresher with highly motivated and leadership skills having bachelors of engineering degree in Computer Science Engineering.<br/>
+        2. Eager to learn new technologies and methodologies.<br/>
+        3. Always willing to innovate the new things which can improve the existing technology.<br/>
+        4. Quick learner.<br/>
+        5. Ability to work as individual as well as in group.<br/>
+   </p>
+    <h3 style="font-size: 40px"><i>Technical Skills:</i></h3>
+     <p style="font-size: 18px"> 1. Ms Office<br/>
+           2. Programming language: C, C++ and Java <br/>
+           3. Web Design 
+     </p> 
+    <h3  style="font-size: 40px"><i>My Work</i></h3>
+      <p style="font-size: 18px">1. Reserach on Enzyme Based Biosensors.<br/>
+          2. Teaching experience of 2 years.
+    </p>
+    <h3 style="font-size: 40px"><i>Education Background</i></h3>
+    <p style="font-size: 18px">
+        NIIT University: <br/>
+        Bachelors in Computer Science Engineering (2016-2020)<br/>
+            graduated statisfactorily with GPA __<br/>
+            Actively participated in-house theater Club
+        <br><br>
+        Ryan International School (C.B.S.E): <br/>
+            X(Secondary)  with GPA 9.8/10 (2014)<br/>
+            XII(Senior Secondary)(Science)  with 78% (2016) 
+    </p>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container">
+  <div class="w3-display-middle" style="font-size: 100px">
+     <span style="color: white">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="pad" id="contact">
+<div class="w3-content section">
+  <div class="w3-row " style="padding-top: 32px" "padding-bottom: 32px">
+    <div class="w3-col m4 w3-container">
+      <img src="8.jpeg" style="width:100%"/>
+    </div>
+    <div class="w3-col m8 panel" style="color: black">
+      <address style="font-size: 20px">
+        <i class="fa fa-map-marker fa-fw  marrgt"></i>Surat, Gujarat, India<br/>
+        <i class="fa fa-phone fa-fw  marrgt" ></i>Phone: +91 9998809931<br/>
+        <i class="fa fa-envelope fa-fw  marrgt" ></i>Email: varuniagarwal37@gmail.com<br/>
+     </address>
+        <p style="font-size: 18px">Swing by for a cup of <i class="fa fa-coffee"></i></p>
+    </div>
+  </div>
+</div></div>
+
+<!-- Footer -->
+<footer align="center">
+  <a href="#home" class="w3-button" style="background-color:lightgray"><i class="fa fa-arrow-up marrgt"></i>To the top</a>
+  <div style="font-size: 25px">
+    <i class="fa fa-facebook-official hover-opacity" style="color: whitesmoke"></i>
+    <i class="fa fa-instagram hover-opacity" style="color: whitesmoke"></i>
+    <i class="fa fa-snapchat hover-opacity" style="color: whitesmoke"></i>
+    <i class="fa fa-pinterest-p hover-opacity" style="color: whitesmoke"></i>
+    <i class="fa fa-twitter hover-opacity" style="color: whitesmoke"></i>
+    <i class="fa fa-linkedin hover-opacity" style="color: whitesmoke"></i>
+  </div>
+  
+</footer>
+ 
+<script>
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("show") == -1) {
+        x.className += " show";
+    } else {
+        x.className = x.className.replace("show", "");
+    }
+}
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>    
+</body>
+</html>
